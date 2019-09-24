@@ -14,10 +14,12 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
-	implementation 'org.apache.camel:camel-spring-boot-starter:2.24.0'
-	implementation 'org.springframework.kafka:spring-kafka'
-	runtimeOnly 'mysql:mysql-connector-java'
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.8.RELEASE'
+//	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+//	implementation 'org.apache.camel:camel-spring-boot-starter:2.24.0'
+//	implementation 'org.springframework.kafka:spring-kafka'
+//	runtimeOnly 'mysql:mysql-connector-java'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testImplementation 'org.springframework.kafka:spring-kafka-test'
+//	testImplementation 'org.springframework.kafka:spring-kafka-test'
 }

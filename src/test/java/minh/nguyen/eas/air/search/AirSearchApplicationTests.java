@@ -1,4 +1,4 @@
-package minh.nguyen.eas.air;
+package minh.nguyen.eas.air.search;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
